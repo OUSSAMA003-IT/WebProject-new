@@ -360,11 +360,11 @@ footer{
 
 
 
-/* using media queries to make the website responsive for the of width<=480px */	
+/* using media queries to make the website responsive for the of width<=600px */	
 @media  (max-width: 600px){
 
 	         #home{
-	            	width:100%;
+	            	width:600px;
 		            height:371px;
 	 }
 	         ul li a {
@@ -442,7 +442,8 @@ footer{
 
 
 	    #about{
-		          height: 160%;	
+		    width: 600px;     
+		    height: 160%;	
 	}
 	   .About{
 		          flex-direction: column;
@@ -468,7 +469,7 @@ footer{
                   display: flex;
 		          position: Absolute; 
 		          right:0px;
-		          padding-right: 340px;
+		          padding-right: 470px;
 	}
 	
 	  
