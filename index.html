@@ -49,9 +49,29 @@
 			             <p class="about_p">
 			                           Le club a pour objectif de stimuler la créativité et l'innovation par le biais d'ateliers de brainstorming, de développer l'esprit d'entreprise par le biais de formations entrepreneuriales, 
 			                           d'encourager les projets durables, de favoriser la collaboration interdisciplinaire et de soutenir les prototypes. 
-		                         	   Il prévoit également d'organiser un concours annuel d'innovation et d'établir des partenariats avec des entreprises. 
-			             </p>
-					     <button class="plus"><a>En savoir plus ...</a></button>
+		                         	   Il prévoit également d'organiser un concours annuel d'innovation et d'établir des partenariats avec des entreprises <span id="dots">...</span>
+					           <span id="more"><br><br> le club compte un totalr de <b>485 membres</b> répartis selon leur niveau d'études. <b>4.8%</b> sont des professeurs, <b>14.3%</b> détiennent un doctorat, <b>23.8%</b> ont un diplome de master, et <b>57.1%</b>
+									   sont des titualaires d'une liscence. Cette diversité refléte un communauté académique variée favorisantl'échange
+									   des connaissances et le dynamisme au sein de club.</span></p> 
+			
+			<button onclick="myFunction()" id="myBtn" class="plus"><a>En savoir plus ...</a></button><br>
+			<script>
+  function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "En savoir plus ..."; 
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "En savoir moins"; 
+    moreText.style.display = "inline";
+  }
+}
+</script>
 				 </div>
 		    </div>
 			<div class="fb-insta"style="padding-left: 750px;">
